@@ -1,6 +1,6 @@
 # OSC	Copy
 
-OSC Copy is a lightweight shell function that seamlessly copies its standard input to your local system's clipboard when working on a remote server over SSH. The OSC 52 standard is used, which is supported by most modern terminals.
+OSC Copy is a lightweight shell function that seamlessly copies its standard input to your local system's clipboard when working over SSH. The OSC 52 standard is used, which is supported by most modern terminals.
 
 ## Installation
 
