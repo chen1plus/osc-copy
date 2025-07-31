@@ -19,7 +19,8 @@ curl -LsSf https://raw.githubusercontent.com/chen1plus/osc-copy/main/install.sh 
 
 ## Usage
 
-OSC Copy passes its input through to stdout, so you can place it in the middle of a command pipeline without breaking it. Here's an example:
+OSC Copy passes its input through to stdout, so you can place it in a pipeline without breaking it.  
+Here's an example:
 
 ```bash
 printf 'gcc --version' | osc-copy | bash -s
