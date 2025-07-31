@@ -9,7 +9,8 @@ curl -LsSf https://raw.githubusercontent.com/chen1plus/osc-copy/master/install.s
 | bash -s >> .bashrc
 ```
 
-You can set a custom function name during installation using the `--function-name` flag. For example, to name the function `ssh-copy`:
+You can set a custom function name during installation using the `--function-name` flag.  
+For example, to name the function `ssh-copy`:
 
 ```bash
 curl -LsSf https://raw.githubusercontent.com/chen1plus/osc-copy/master/install.sh \
