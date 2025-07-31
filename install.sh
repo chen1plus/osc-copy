@@ -16,7 +16,7 @@ while [[ $# -gt 0 ]]; do
 			;;
 
 		*)
-			echo 'error: unknown option' >&2
+			echo "error: unknown option '$1'" >&2
 			exit 1
 			;;
 	esac
@@ -24,6 +24,6 @@ done
 
 cat << EOF
 function $FUNCTION_NAME {
-	tee >(base64 -w 0 | xargs printf "\e]52;c;%s\a")
+	tee >(base64 -w 0 | xargs printf "\e]52;c;%s\a" >&2)
 }
 EOF
