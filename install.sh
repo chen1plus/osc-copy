@@ -24,6 +24,6 @@ done
 
 cat << EOF
 function $FUNCTION_NAME {
-	printf "\e]52;c;%s\a" "\$(printf %s "\$(cat)" | base64 | tr -d '\n')"
+	tee >(base64 -w 0 | xargs printf "\e]52;c;%s\a")
 }
 EOF
