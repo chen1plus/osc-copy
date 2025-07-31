@@ -5,7 +5,7 @@ OSC Copy is a lightweight shell function that seamlessly copies its standard inp
 ## Installation
 
 ```bash
-curl -LsSf https://raw.githubusercontent.com/chen1plus/osc-copy/master/install.sh \
+curl -LsSf https://raw.githubusercontent.com/chen1plus/osc-copy/main/install.sh \
 | bash -s >> .bashrc
 ```
 
@@ -13,7 +13,7 @@ You can set a custom function name during installation using the `--function-nam
 For example, to name the function `ssh-copy`:
 
 ```bash
-curl -LsSf https://raw.githubusercontent.com/chen1plus/osc-copy/master/install.sh \
+curl -LsSf https://raw.githubusercontent.com/chen1plus/osc-copy/main/install.sh \
 | bash -s -- --function-name ssh-copy >> .bashrc
 ```
 
